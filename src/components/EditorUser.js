@@ -5,7 +5,7 @@ export default class EditorUser extends Component {
     return (
     <div className="editorUserInfo">
         <div className="editorUserIcon"></div>
-        <div className="editorUserName"></div>
+        <div className="editorUserName">Name</div>
     </div>    
     )
   }
