@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
-import Editor from './component/Editor'
+import EditorWr from './components/EditorWr'
+import './App.css';
 
 
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <Editor />
+      <div className="container">
+        <EditorWr />
       </div>
     )
   }
