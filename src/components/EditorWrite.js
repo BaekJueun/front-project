@@ -35,6 +35,23 @@ export default class EditoerWrite extends Component {
                     onChange={this.handleChange}
                 >
                 </textarea>
+                <div className="editorLeft">
+                    <div className="editorFileInput">
+                        <span>IMG File</span>
+                        <input type="file" multiple accept="image/*" />
+                    </div>
+                    <div className="editorMovieInput">
+                        <span>Movie File</span>
+                        <input type="file" accept="video/*" />
+                    </div>
+                    <div className="editorLink"></div>
+                    <ul>
+                        <li>BOLD</li>
+                        <li>ITALIC</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
             </div>
             <button 
                 type="submit" 
@@ -47,3 +64,4 @@ export default class EditoerWrite extends Component {
         )
     }
 }
+
