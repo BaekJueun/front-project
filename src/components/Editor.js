@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import EditorUser from './EditorUser';
-import EditorWrite from './EditoerWrite';
+import EditorWrite from './EditorWrite';
 import './Editor.css';
 
 
