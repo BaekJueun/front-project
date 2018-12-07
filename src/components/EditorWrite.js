@@ -36,13 +36,13 @@ export default class EditoerWrite extends Component {
                 >
                 </textarea>
                 <div className="editorLeft">
-                    <div className="editorFileInput">
-                        <span>IMG File</span>
-                        <input type="file" multiple accept="image/*" />
+                    <div className="editorFileInput editorInputIcon">
+                        <label htmlFor="inputImg">IMG Upload</label>
+                        <input type="file" id="inputImg" multiple accept="image/*" />
                     </div>
-                    <div className="editorMovieInput">
-                        <span>Movie File</span>
-                        <input type="file" accept="video/*" />
+                    <div className="editorMovieInput editorInputIcon">
+                        <label htmlFor="inputMovie">Movie Upload</label>
+                        <input type="file" id="inputMovie" accept="video/*" />
                     </div>
                     <div className="editorLink"></div>
                     <ul>
