@@ -1,0 +1,4 @@
+.header {display:flex; height:70px; justify-content:center; align-items:center; border-bottom:1px solid #e9edf9}
+.header .inner {width:90%; padding:0 5%}
+.header .navLogo {float:left;}
+.header .navWrite {float:right;} 
